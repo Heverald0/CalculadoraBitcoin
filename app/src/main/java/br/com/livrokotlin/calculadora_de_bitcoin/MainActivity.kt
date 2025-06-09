@@ -80,6 +80,5 @@ class MainActivity : AppCompatActivity() {
         }
 }
 
-// Classes para o parse do JSON
 data class TickerResponse(val ticker: Ticker)
 data class Ticker(val last: Double)
